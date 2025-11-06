@@ -4,7 +4,6 @@ import Home from "./components/home/Home";
 import { useRef, useState } from "react";
 import GenreFetch from "./components/genre/GenreFetch";
 import TopRated from "./components/toprated/TopRated";
-import NotFound from "./NotFound";
 import UpComing from "./components/upcoming/UpComing";
 import NowPlaying from "./components/nowplaying/NowPlaying";
 import SearchMovies from "./components/searchmovies/SearchMovies";
@@ -45,7 +44,6 @@ function App() {
           <Route path="thriller" element={<GenreFetch genreId={53} current={current} setCurrent={setCurrent}/>}/>
           <Route path="war" element={<GenreFetch genreId={10752} current={current} setCurrent={setCurrent}/>}/>
           <Route path="western" element={<GenreFetch genreId={37} current={current} setCurrent={setCurrent}/>}/>
-          <Route path="*" element={<NotFound/>}/>
         </Route>
         
         {/* Standalone route without Header and Footer */}
