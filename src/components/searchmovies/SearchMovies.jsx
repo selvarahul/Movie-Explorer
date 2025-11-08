@@ -46,7 +46,7 @@ export default function SearchMovies(props) {
                         Developed with ❤️ by <span className="developer-name">Selva Rahul S B</span>
                     </p>
                     <div className="developer-links">
-                        <a href="" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">
+                        <a href="https://selvarahul.github.io/Portfolioo/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">
                             <span className="link-icon">🌐</span> Portfolio
                         </a>
                         <a href="https://github.com/selvarahul" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
